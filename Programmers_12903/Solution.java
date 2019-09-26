@@ -4,8 +4,7 @@ import java.util.ArrayList;
 import java.util.*;
 
 public class Solution {
-	public String solution(String s) {
-			
+	public String solution(String s) {	
 		
 		//단어 길이 짝수일 때
 		if(s.length() % 2 == 0) {
