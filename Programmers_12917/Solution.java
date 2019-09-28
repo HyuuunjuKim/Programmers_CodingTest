@@ -20,12 +20,11 @@ public class Solution {
 		Arrays.sort(array_ascii); //배열을 오름차순으로 정렬
 		
 		for (int j = 0 ; j < s.length(); j++) {
-			char ascii = (char)array_ascii[j];
-			want_array[s.length()-j-1] = ascii;
+			char ascii = (char)array_ascii[j]; //아스키코드를 char로 변환
+			want_array[s.length()-j-1] = ascii; //배열에 넣을때는 내림차순으로
 		}
 		
-		answer = new String(want_array);
-		
+		answer = new String(want_array); //char배열을 String으로 
 		
 		return answer;
 	}
