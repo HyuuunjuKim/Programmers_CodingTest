@@ -22,7 +22,7 @@ public class Solution {
 	    else if ((n-4) % 3 == 0) {
 	    	a = a + (n-4)/3;
 	    	answer = Integer.toString(a)+"1";
-	    }
+	    }asdasd
 	    return answer;
 	}
 
