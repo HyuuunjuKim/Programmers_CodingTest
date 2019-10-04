@@ -21,10 +21,6 @@ public class Solution {
 		 else {
 			 answer = new int[count];
 		 
-//		 if(count == 0) {
-//			 
-//		 }
-	     
 		     int a = 0;
 		     for(int i = 0 ; i < arr.length ; i++) {	
 		    	 if(arr_index[i]== true) {
