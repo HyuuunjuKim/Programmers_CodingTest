@@ -6,7 +6,9 @@ public class test {
 		// TODO Auto-generated method stub
 		Solution sl = new Solution();
 		long n = 12345;
-		System.out.println(sl.solution(n));
+		for(int i = 0 ; i < sl.solution(n).length ; i++) {
+			System.out.println(sl.solution(n)[i]);
+		};
 
 	}
 
