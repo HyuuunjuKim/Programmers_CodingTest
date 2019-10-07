@@ -5,8 +5,11 @@ public class test {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Solution sl = new Solution();
-		int[] a = {4, 3, 2, 1};
-		System.out.println(sl.solution(a));
+		int[] a = {7};
+		for(int i=0 ; i < sl.solution(a).length ;i++) {
+			System.out.print(sl.solution(a)[i]);
+		}
+		
 
 	}
 
