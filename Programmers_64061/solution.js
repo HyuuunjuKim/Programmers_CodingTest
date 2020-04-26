@@ -29,9 +29,7 @@ function solution(board, moves) {
         cart.push(tmp);
       }
     }
-    console.log(cart);
   });
-  console.log(answer);
   return answer;
 }
 
