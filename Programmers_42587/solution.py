@@ -9,8 +9,7 @@ def solution(priorities, location):
                 priorities_with_idx.append(pop_item)
                 pop_item = None
 
-                break
-                
+                break     
         if pop_item != None :
             if pop_item[1] == location :
                 return len(print_list)+1
