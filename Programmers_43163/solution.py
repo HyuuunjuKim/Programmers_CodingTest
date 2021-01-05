@@ -1,9 +1,9 @@
 def isOneWordDifferent(word1, word2) :
-    sum = 0
+    num_of_different_word = 0
     for a, b in zip(word1, word2) :
         if a != b :
-            sum += 1
-    if sum == 1 :
+            num_of_different_word += 1
+    if num_of_different_word == 1 :
         return True
     else :
         return False
