@@ -5,7 +5,7 @@ def solution(s):
     data.sort(key = lambda x: len(x)) # list의 길이 오름차순으로 정렬
     
     answer.append(data[0][0])
-    for idx in range(1, len(data)) :
-        answer.append(sum(data[idx]) - sum(data[idx-1]))
+    for i in range(1, len(data)) :
+        answer.append(sum(data[i]) - sum(data[i-1]))
 
     return answer
